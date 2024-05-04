@@ -1,0 +1,15 @@
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.product-list__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 23%;
+}
